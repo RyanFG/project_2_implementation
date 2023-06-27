@@ -1,4 +1,5 @@
 import './App.css';
+import React from "react";
 import {
   BrowserRouter,
   Switch,
@@ -18,7 +19,7 @@ function App() {
 
     <BrowserRouter>
 
-<HashRouter basename="/">
+      <HashRouter basename="/">
         <nav>
           <ul>
             <li>
