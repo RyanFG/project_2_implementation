@@ -16,7 +16,7 @@ function App() {
         <TopNavbar/>
 
         <Routes>
-          <Route path='/Home' element = {<Home />} />
+          <Route path='/' element = {<Home />} />
           <Route path='/About' element = {<AboutUs />} />
           <Route path='/CreateRequest' element = {<CreateRequest />} />
           <Route path='/ForSale' element = {<ForSale />} />
