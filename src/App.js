@@ -2,7 +2,7 @@ import './App.css';
 import React from "react";
 import {
   BrowserRouter,
-  Switch,
+  Routes,
   Route,
   Link,
   HashRouter,
@@ -40,7 +40,7 @@ function App() {
           </ul>
         </nav>
 
-        <Switch>
+        <Routes>
           <Route path="/AboutUs">
             <AboutUs />
           </Route>
@@ -56,7 +56,7 @@ function App() {
           <Route path="/">
             <Home />
           </Route>
-        </Switch>
+        </Routes>
       </HashRouter>
         <TopNavbar/>
 
