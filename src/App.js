@@ -16,11 +16,11 @@ function App() {
         <TopNavbar/>
 
         <Routes>
-          <Route path='/' component = {<Home />} />
-          <Route path='/About' component = {<AboutUs />} />
-          <Route path='/CreateRequest' component = {<CreateRequest />} />
-          <Route path='/ForSale' component = {<ForSale />} />
-          <Route path='/PrevWorks' component = {<PrevWorks />} />
+          <Route path='/' component = {Home} />
+          <Route path='/About' component = {AboutUs} />
+          <Route path='/CreateRequest' component = {CreateRequest} />
+          <Route path='/ForSale' component = {ForSale} />
+          <Route path='/PrevWorks' component = {PrevWorks} />
         </Routes>
 
       </div>
