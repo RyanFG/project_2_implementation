@@ -10,7 +10,7 @@ import Home from './components/pages/Home';
 function App() {
   return (
 
-    <HashRouter>
+    <HashRouter basename="/project_2_implementation">
 
       <div>
         <TopNavbar/>
