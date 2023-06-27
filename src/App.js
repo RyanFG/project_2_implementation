@@ -1,5 +1,5 @@
 import './App.css';
-import {HashRouter as Router, Routes, Route} from 'react-router-dom';
+import {HashRouter,  Routes, Route} from 'react-router-dom';
 import TopNavbar from './components/TopNavbar';
 import AboutUs from './components/pages/AboutUs';
 import CreateRequest from './components/pages/CreateRequest';
@@ -10,7 +10,7 @@ import Home from './components/pages/Home';
 function App() {
   return (
 
-    <Router>
+    <HashRouter>
 
       <div>
         <TopNavbar/>
@@ -25,7 +25,7 @@ function App() {
 
       </div>
 
-    </Router> 
+    </HashRouter> 
   );
 }
 
