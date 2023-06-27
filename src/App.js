@@ -10,7 +10,7 @@ import Home from './components/pages/Home';
 function App() {
   return (
 
-    <HashRouter basename="/project_2_implementation">
+    <HashRouter basename={process.env.PUBLIC_URL}>
 
       <div>
         <TopNavbar/>
