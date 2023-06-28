@@ -1,5 +1,5 @@
 import './App.css';
-import {HashRouter, Routes, Route} from 'react-router-dom';
+import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import TopNavbar from './components/TopNavbar';
 import AboutUs from './components/pages/AboutUs';
 import CreateRequest from './components/pages/CreateRequest';
@@ -10,22 +10,22 @@ import Home from './components/pages/Home';
 function App() {
   return (
 
-    <HashRouter basename={process.env.PUBLIC_URL}>
+    <BrowserRouter>
 
       <div>
         <TopNavbar/>
 
         <Routes>
-          <Route path='/' component = {Home} />
-          <Route path='/About' component = {AboutUs} />
-          <Route path='/CreateRequest' component = {CreateRequest} />
-          <Route path='/ForSale' component = {ForSale} />
-          <Route path='/PrevWorks' component = {PrevWorks} />
+          <Route path="/" element = {<Home/>} />
+          <Route path="/About" element = {<AboutUs/>} />
+          <Route path='/CreateRequest' element = {<CreateRequest/>} />
+          <Route path='/ForSale' element = {<ForSale/>} />
+          <Route path='/PrevWorks' element = {<PrevWorks/>} />
         </Routes>
 
       </div>
 
-    </HashRouter> 
+    </BrowserRouter> 
   );
 }
 
