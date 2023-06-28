@@ -5,7 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 
 function TopNavbar() {
     return (
-      <Navbar bg="primary" data-bs-theme="dark" expand="lg" className="bg-body-tertiary">
+      <Navbar bg="primary" data-bs-theme="dark" expand="lg" className="bg-body-tertiary" fixed="top">
         <Container>
           <Navbar.Brand href="/">Whittle Creations</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
