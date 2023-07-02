@@ -5,6 +5,8 @@ import { FormLabel } from 'react-bootstrap';
 
 function FacetedSearch({typeWork, size, price, works}){
 
+    /*
+
     const [selectedSize, setSelectedSize] = useState(size);
     const [selectedPrice, setSelectedPrice] = useState(price);
     const [selectedType, setSelectedType] = useState(typeWork);
@@ -89,7 +91,14 @@ function FacetedSearch({typeWork, size, price, works}){
                 )}
             </div>
         </Form>
+    );*/
+
+    return(
+        <div className='newBorder text-center'>
+            <h1>Page Under Construction</h1>
+        </div>
     );
+    
 
 }
 export default FacetedSearch;

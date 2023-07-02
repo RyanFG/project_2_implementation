@@ -1,16 +1,25 @@
 import React from "react";
+import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
 
 
 function Tips(){
 
     return(
 
-        <div className="wrapper">
-            <h1>
-                This is the Tips page
-            </h1>
-            <p>some text</p>
-        </div>
+        <Row>
+            <Col>
+                <div className="newBorder">
+                    <h1>
+                        Tips and Tricks for Carving Wood
+                    </h1>
+                    <h6>some text</h6>
+                </div>
+            </Col>
+            <Col>
+
+            </Col>
+        </Row>
 
     );
 
