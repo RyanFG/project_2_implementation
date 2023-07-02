@@ -5,8 +5,11 @@ function CreateRequest(){
 
     return(
 
-        <div>
-            <h1>This is Create Request page</h1>
+        <div className="wrapper">
+            <h1>
+                This is the Create Request page
+            </h1>
+            <p>form for request</p>
         </div>
 
     );

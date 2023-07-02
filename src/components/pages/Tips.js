@@ -5,8 +5,11 @@ function Tips(){
 
     return(
 
-        <div>
-            <h1>This is the Tips page</h1>
+        <div className="wrapper">
+            <h1>
+                This is the Tips page
+            </h1>
+            <p>some text</p>
         </div>
 
     );

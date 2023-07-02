@@ -9,11 +9,9 @@ function ForSale(){
     const price =['less than 99$', '100$ to 249$', '250$ to 749$','750$ to 2499$', '2500$ or more'];
 
     const worksForSale =[
-        {title:'', typeWork:'', desc:'', size:'', price:'', image:''},
-        {title:'', typeWork:'', desc:'', size:'', price:'', image:''},
-        {title:'', typeWork:'', desc:'', size:'', price:'', image:''},
-        {title:'', typeWork:'', desc:'', size:'', price:'', image:''}
-
+        {title:'Bear', typeWork:'Animal', desc:'long description', size:'Small', price:'less than 99$', image:''},
+        {title:'Abstract Work', typeWork:'Abstract', desc:'description', size:'Large', price:'750$ to 2499$', image:''},
+        {title:'Boat', typeWork:'Other', desc:'boat desc', size:'Medium', price:'100$ to 249$', image:''}
     ];
     
     return(
