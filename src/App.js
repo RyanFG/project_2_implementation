@@ -6,6 +6,7 @@ import CreateRequest from './components/pages/CreateRequest';
 import PrevWorks from './components/pages/PrevWorks';
 import ForSale from './components/pages/ForSale';
 import Home from './components/pages/Home';
+import Tips from './components/pages/Tips';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path='/CreateRequest' element = {<CreateRequest/>} />
           <Route path='/ForSale' element = {<ForSale/>} />
           <Route path='/PrevWorks' element = {<PrevWorks/>} />
+          <Route path='/Tips' element = {<Tips/>} />
         </Routes>
 
       </div>
