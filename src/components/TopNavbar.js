@@ -15,6 +15,7 @@ function TopNavbar() {
               <Nav.Link href="/PrevWorks">Previous Works</Nav.Link>
               <Nav.Link href="/CreateRequest">Create Request</Nav.Link>
               <Nav.Link href="/Tips">Carving Tips</Nav.Link>
+              <Nav.Link href="/Month">Monthly Stats</Nav.Link>
               <Nav.Link href="/About">About Us</Nav.Link>
             </Nav>
           </Navbar.Collapse>

@@ -7,6 +7,7 @@ import PrevWorks from './components/pages/PrevWorks';
 import ForSale from './components/pages/ForSale';
 import Home from './components/pages/Home';
 import Tips from './components/pages/Tips';
+import Month from './components/pages/Month';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path='/ForSale' element = {<ForSale/>} />
           <Route path='/PrevWorks' element = {<PrevWorks/>} />
           <Route path='/Tips' element = {<Tips/>} />
+          <Route path='/Month' element = {<Month/>} />
         </Routes>
 
       </div>

@@ -4,7 +4,7 @@
 
 .newBorder{
   padding-left: 10%;
-  padding-right:5%;
+  padding-right: 5%;
   padding-top: 10%;
 }
 
@@ -12,6 +12,12 @@
   padding-left: 4%;
   padding-right:4%;
   padding-top: 8%;
+}
+
+.newBorder3{
+  padding-left: 4%;
+  padding-right:4%;
+  padding-top: 5%;
 }
 
 .down{
