@@ -12,7 +12,7 @@ function CreateRequest(){
         <Row>
             <Col xs={8}>
                 <div className="newBorder2">
-                    <h1>Create a Request</h1>
+                    <h1>Your Order</h1>
                     <h2>Your Information</h2>
                     <Form>
                         <Row>
