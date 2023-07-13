@@ -33,7 +33,7 @@ function DarkVariantExample() {
           alt="Third slide"
         />
         <Carousel.Caption>
-          <h3 class="text-light bg-dark">Running Hog</h3>
+          <h3 class="text-light bg-dark">Runnin Hog</h3>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
