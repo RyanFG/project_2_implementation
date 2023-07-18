@@ -7,6 +7,10 @@
   padding-bottom: 1%;
 }
 
+.darkBrown{
+  color: #3a1b01;
+}
+
 .newBorder{
   padding-left: 10%;
   padding-right: 5%;
@@ -36,6 +40,10 @@
 
 .down3{
   padding-top: 1%;
+}
+
+.down4{
+  padding-top: 4%;
 }
 
 .App-logo {

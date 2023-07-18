@@ -3,6 +3,7 @@ import Form from 'react-bootstrap/Form';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Button from 'react-bootstrap/Button';
+import tall_art from './Images/Tall_Abstract_Carving.jpg'
 
 
 function CreateRequest(){
@@ -71,8 +72,8 @@ function CreateRequest(){
                     </Form>
                 </div>
             </Col>
-            <Col>
-
+            <Col xs={4} className="down4">
+                <img src={tall_art} alt="Tall Abstract Carving" width='45%'/>
             </Col>
         </Row>
 

@@ -3,13 +3,34 @@ import Form from 'react-bootstrap/Form';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Button from 'react-bootstrap/Button';
+import tall_art from './Images/Tall_Abstract_Carving.jpg';
+
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
 
 
 function CreateRequest(){
 
-    return(
+    return(  
 
         <Row>
+            <Navbar color=" #3a1b01" bg="darkBrown" data-bs-theme="dark" expand="lg" className="bg-body-tertiary" fixed="top">
+                <Container>
+                <Navbar.Brand href="/">Whittle Creations</Navbar.Brand>
+                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Collapse id="basic-navbar-nav">
+                    <Nav className="me-auto">
+                    <Nav.Link href="/ForSale">À Vendre</Nav.Link>
+                    <Nav.Link href="/PrevWorks">Travaux Antérieurs</Nav.Link>
+                    <Nav.Link href="/CreateRequest">Commandez Maintenant</Nav.Link>
+                    <Nav.Link href="/Tips">Conseils De Sculpture</Nav.Link>
+                    <Nav.Link href="/Month">Statistiques Mensuelles</Nav.Link>
+                    <Nav.Link href="/About">À Propos De Nous</Nav.Link>
+                    </Nav>
+                </Navbar.Collapse>
+                </Container>
+            </Navbar>
             <Col xs={8}>
                 <div className="newBorder2">
                     <h1>Votre Commande</h1>
@@ -71,8 +92,8 @@ function CreateRequest(){
                     </Form>
                 </div>
             </Col>
-            <Col>
-
+            <Col xs={4} className="down4">
+                <img src={tall_art} alt="Tall Abstract Carving" width='45%'/>
             </Col>
         </Row>
 
