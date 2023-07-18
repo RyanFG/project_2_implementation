@@ -8,6 +8,7 @@ import ForSale from './components/pages/ForSale';
 import Home from './components/pages/Home';
 import Tips from './components/pages/Tips';
 import Month from './components/pages/Month';
+import French from './components/pages/FrenchRequest';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path='/PrevWorks' element = {<PrevWorks/>} />
           <Route path='/Tips' element = {<Tips/>} />
           <Route path='/Month' element = {<Month/>} />
+          <Route path='/FrenchRequest' element = {<French/>} />
         </Routes>
 
       </div>

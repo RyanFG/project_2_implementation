@@ -12,60 +12,60 @@ function CreateRequest(){
         <Row>
             <Col xs={8}>
                 <div className="newBorder2">
-                    <h1>Your Order</h1>
-                    <h2>Your Information</h2>
+                    <h1>Votre Commande</h1>
+                    <h2>Vos Informations</h2>
                     <div className="upRight">
-                        <Button href="/FrenchRequest" variant="secondary" type="submit">
-                            Au Français
+                        <Button href="/CreateRequest" variant="secondary" type="submit">
+                                To English
                         </Button>
                     </div>
                     <Form>
                         <Row>
                             <Col xs={3}>
-                                <Form.Control placeholder="First Name" />
+                                <Form.Control placeholder="Prénom" />
                             </Col>
                             <Col xs={4}>
-                                <Form.Control placeholder="Last Name" />
+                                <Form.Control placeholder="Nom De Famille" />
                             </Col>
                             <Col>
-                                <Form.Control placeholder="Email" />
+                                <Form.Control placeholder="E-Mail" />
                             </Col>
                         </Row>
 
-                        <h2 className="down2">Your Request</h2>
-                        <Form.Control placeholder="Name of Work"/>
+                        <h2 className="down2">Votre Demande</h2>
+                        <Form.Control placeholder="Nom De Sculpture"/>
 
                         <Row className="down3">
                             <Col>
                                 <Form.Select aria-label="Default select example">
-                                    <option>Category of Work</option>
+                                    <option>Catégorie De Sculpture</option>
                                     <option value="1">Animal</option>
-                                    <option value="2">Abstract</option>
+                                    <option value="2">Abstrait</option>
                                     <option value="3">Nature</option>
-                                    <option value="4">Religous</option>
-                                    <option value="5">Other</option>
+                                    <option value="4">Religieux</option>
+                                    <option value="5">Autre</option>
                                 </Form.Select>
                             </Col>
                             <Col>
                                 <Form.Select aria-label="Default select example">
-                                    <option>Size of Work</option>
-                                    <option value="1">Small</option>
-                                    <option value="2">Medium</option>
-                                    <option value="3">Large</option>
+                                    <option>Taille De Sculpture</option>
+                                    <option value="1">Petit</option>
+                                    <option value="2">Moyen</option>
+                                    <option value="3">Grand</option>
                                 </Form.Select>
                             </Col>
                         </Row>
 
-                        <h2 className="down2">Notes</h2>
+                        <h2 className="down2">Remarques</h2>
                         <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-                            <Form.Control as="textarea" rows={3} placeholder="Please comment anything specific (ex. I want it to be a bear, have it look like it running, etc.)"/>
+                            <Form.Control as="textarea" rows={3} placeholder="Veuillez commenter tout élément spécifique (par exemple, je veux que ce soit un ours, qu'il ait l'air de courir, etc.)"/>
                             <Form.Text className="text-muted">
-                                I will email with you after receiving the request the request to 
-                                negotiate a price, and verify specifics about your request.
+                                Je vous enverrai un e-mail après avoir reçu la demande la demande de 
+                                négocier un prix et vérifier les détails de votre demande.
                             </Form.Text>
                         </Form.Group>
                         <Button variant="success" type="submit">
-                            Submit Order
+                            Soumettre La Commande
                         </Button>
 
                     </Form>
