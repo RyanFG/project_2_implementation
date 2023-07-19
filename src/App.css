@@ -29,6 +29,11 @@
   padding-top: 5%;
 }
 
+.leftPadding{
+  padding-top: 4%;
+  padding-left: 2.5%;
+}
+
 .down{
   padding-top: 10%;
   padding-right: 12%;
@@ -44,6 +49,10 @@
 
 .down4{
   padding-top: 4%;
+}
+
+.bottomPad{
+  padding-bottom: 3%;
 }
 
 .App-logo {

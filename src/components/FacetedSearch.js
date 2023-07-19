@@ -1,6 +1,8 @@
 import {useState} from 'react';
 import Form from 'react-bootstrap/Form';
 import ImageCard from './ImageCards';
+import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
 
 function FacetedSearch({typeWorks, works}){
 
@@ -30,7 +32,6 @@ function FacetedSearch({typeWorks, works}){
 
     function handleSearch(searchTerm, selectedWorks){
 
-
         const newWorks = works.filter((work) =>
         
         work.typeWork.includes(searchTerm) && (selectedWorks.includes(work.typeWork))
@@ -41,27 +42,29 @@ function FacetedSearch({typeWorks, works}){
     };
 
     return(
-
-        <Form>
-            <Form.Group className="mb-3" controlId="formBasicCheckbox">
-                {typeWorks.map((tWork) =>
-                <Form.Check type="checkbox" label = {tWork} value={tWork} id={tWork} onChange={handleTypeChange} checked={selectedTypeWorks.includes(tWork)}/>
-                )}
-            </Form.Group>
-            
-
-            
-            <div>    
-                {works.map((work) =>
-                <div key = {work.id} className='col-md-6'>
-                <ImageCard id={work.key} image={work.image} title={work.title} desc={work.desc} type={work.typeWork} size={work.size} price={work.price}/>
-                {/* <ImageCard id = {'test'} title = {'testtitle'} type = {'testtype'} desc = {'test'} size = {'testt'} price = {'price'} /> */}
+        <Row>
+            <Col xs={1} className='down3'>
+                <Form>
+                    <Form.Group className="mb-3" controlId="formBasicCheckbox">
+                        {typeWorks.map((tWork) =>
+                        <Form.Check type="checkbox" label = {tWork} value={tWork} id={tWork} onChange={handleTypeChange} checked={selectedTypeWorks.includes(tWork)}/>
+                        )}
+                    </Form.Group>
+                </Form>
+            </Col>
+        
+            <Col>
+                <div>    
+                    {works.map((work) =>
+                    <div key = {work.id} className='col-md-6'>
+                    <ImageCard id={work.key} image={work.image} title={work.title} desc={work.desc} type={work.typeWork} size={work.size} price={work.price} forPurchase={work.forPurchase}/>
+                    </div>
+                    )}
                 </div>
-                )}
-            </div>
+            </Col>
             
-            
-        </Form>
+        </Row>
+
 
     );
     

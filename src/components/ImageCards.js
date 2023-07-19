@@ -1,9 +1,11 @@
 import Card from 'react-bootstrap/Card';
+import Button from 'react-bootstrap/Button';
 
-function ImageCard({image, title, desc, price, size, typeWork, visible = true}) {
+function ImageCard({image, title, desc, price, size, typeWork, visible = true, forPurchase = "Purchase"}) {
 
   return (
-    <Card style={{ width: '18rem', display:{visible}}}>
+    <div className='bottomPad'>
+    <Card style={{ width: '40%', display:{visible}}}>
       <Card.Img variant="top" src={image}/>
       <Card.Body>
         <Card.Title>{title}</Card.Title>
@@ -19,8 +21,10 @@ function ImageCard({image, title, desc, price, size, typeWork, visible = true}) 
         <Card.Text>
           Price: {price}
         </Card.Text>
+        <Button variant="success">{forPurchase}</Button>
       </Card.Body>
     </Card>
+    </div>
   );
 }
 

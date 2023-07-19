@@ -9,7 +9,7 @@ function DarkVariantExample() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          height={735}
+          height={825}
           src={wood_bird}
           alt="First slide"
         />
@@ -20,7 +20,7 @@ function DarkVariantExample() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          height={735}
+          height={825}
           src={nature_elephant}
           alt="Second slide"
         />
@@ -31,7 +31,7 @@ function DarkVariantExample() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          height={735}
+          height={825}
           src={runnin_boar}
           alt="Third slide"
         />
