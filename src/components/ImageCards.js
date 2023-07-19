@@ -1,7 +1,7 @@
-import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
-function ImageCard(image, title, desc, price, size, typeWork, visible) {
+function ImageCard({image, title, desc, price, size, typeWork, visible = true}) {
+
   return (
     <Card style={{ width: '18rem', display:{visible}}}>
       <Card.Img variant="top" src={image}/>
@@ -14,10 +14,10 @@ function ImageCard(image, title, desc, price, size, typeWork, visible) {
           {desc}
         </Card.Text>
         <Card.Text>
-          {size}
+          Size: {size}
         </Card.Text>
         <Card.Text>
-          {price}
+          Price: {price}
         </Card.Text>
       </Card.Body>
     </Card>
