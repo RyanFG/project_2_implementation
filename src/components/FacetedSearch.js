@@ -55,9 +55,10 @@ function FacetedSearch({typeWorks, works}){
         
             <Col>
                 <div>    
-                    {works.map((work) =>
+                    {selectedWorks.map((work) =>
                     <div key = {work.id} className='col-md-6'>
-                    <ImageCard id={work.key} image={work.image} title={work.title} desc={work.desc} type={work.typeWork} size={work.size} price={work.price} forPurchase={work.forPurchase}/>
+                    <ImageCard id={work.key} image={work.image} title={work.title} desc={work.desc} type={work.typeWork} size={work.size} price={work.price} forPurchase={work.forPurchase}
+                    visible={selectedTypeWorks.map((wType) => wType.typeWork).includes(work.typeWork)}/>
                     </div>
                     )}
                 </div>

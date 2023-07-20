@@ -7,9 +7,9 @@ function ForSale(){
     const typeWorks=['Animal','Nature','Religous','Abstract','Other'];
 
     const worksForSale =[
-        {title:'Bear', typeWork:'Animal', desc:'long description', size:'Small', price:'less than 99$', image:''},
-        {title:'Abstract Work', typeWork:'Abstract', desc:'description', size:'Large', price:'750$ to 2499$', image:''},
-        {title:'Boat', typeWork:'Other', desc:'boat desc', size:'Medium', price:'100$ to 249$', image:''}
+        {title:'Bear', typeWork:'Animal', desc:'long description', size:'Small', price:'99$', image:''},
+        {title:'Abstract Work', typeWork:'Abstract', desc:'description', size:'Large', price:'750$', image:''},
+        {title:'Boat', typeWork:'Other', desc:'boat desc', size:'Medium', price:'249$', image:''}
     ];
     
     return(

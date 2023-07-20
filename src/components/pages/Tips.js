@@ -1,7 +1,8 @@
 import React from "react";
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
-
+import carving1 from './Images/carving1.jpg';
+import carving2 from './Images/carving2.jpg';
 
 function Tips(){
 
@@ -18,7 +19,7 @@ function Tips(){
                     {"but it will also allow you to be more productive with your carvings."}</p>
                     <p>{"- Be careful of how much wood you take off. Even if you want to you will not be able to put the wood "}
                     {"back on once it has been taken off. An error like this could derail your entire piece."}</p>
-                    <p>{"- Wood burning is a very useful tool that can be used to add texture to a work."}
+                    <p>{"- Wood burning is a very useful tool that can be used to add texture to a work. "}
                     {"Be careful working with tools like this and make sure to handle them properly."}</p>
                     <p>{"- Learn about the different types of tools that can be used and understand the purpose each tool serves."}</p>
                     <p>{"- Start with simple projects. While you may want to start with an extremely intricate work this is "}
@@ -27,7 +28,14 @@ function Tips(){
                 </div>
             </Col>
             <Col>
-
+                <div className="down">
+                    <div className="text-center down2">
+                        <img src={carving1} alt="Wood Carving" width='60%'/>
+                    </div>
+                    <div className="text-center down2">
+                        <img src={carving2} alt="Wood Carving Tools" width='60%'/>
+                    </div>
+                </div>
             </Col>
         </Row>
 

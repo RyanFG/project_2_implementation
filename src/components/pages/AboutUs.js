@@ -3,7 +3,7 @@ import Form from 'react-bootstrap/Form';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Button from 'react-bootstrap/Button';
-
+import carver from './Images/Wood_Carver.jpg';
 
 function AboutUs(){
 
@@ -30,6 +30,9 @@ function AboutUs(){
                         some  of techniques that we have 
                         used while making these works of art.
                         </h6>
+                        <div className="text-center down2">
+                            <img src={carver} alt="Wood Carver" width='65%'/>
+                        </div>
                     </div>
                 </Col>
                 <Col>
@@ -50,11 +53,6 @@ function AboutUs(){
                         </Button>
                     </div>
                 </Col>
-            </Row>
-            <Row>
-                <div className="newBorder">
-
-                </div>
             </Row>
         </Form>
 

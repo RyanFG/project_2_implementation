@@ -81,8 +81,8 @@ function CreateRequest(){
                         <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
                             <Form.Control as="textarea" rows={3} placeholder="Veuillez commenter tout élément spécifique (par exemple, je veux que ce soit un ours, qu'il ait l'air de courir, etc.)"/>
                             <Form.Text className="text-muted">
-                                Je vous enverrai un e-mail après avoir reçu la demande la demande de 
-                                négocier un prix et vérifier les détails de votre demande.
+                                Vous recevez un e-mail après réception de la demande de
+                                négocier un prix et vérifier les détails.
                             </Form.Text>
                         </Form.Group>
                         <Button variant="success" type="submit">

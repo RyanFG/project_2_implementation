@@ -8,9 +8,9 @@ function PrevWorks(){
     const typeWorks=['Animal','Nature','Religous','Abstract','Other'];
 
     const worksSold =[
-        {title:'Bear', typeWork:'Animal', desc:'long description', size:'Small', price:'less than 99$', image:'', forPurchase:"Request Remake"},
-        {title:'Abstract Work', typeWork:'Abstract', desc:'description', size:'Large', price:'750$ to 2499$', image:'', forPurchase:"Request Remake"},
-        {title:'Boat', typeWork:'Other', desc:'boat desc', size:'Medium', price:'100$ to 249$', image:'', forPurchase:"Request Remake"}
+        {title:'Bear', typeWork:'Animal', desc:'long description', size:'Small', price:'79$', image:'', forPurchase:"Request Remake"},
+        {title:'Abstract Work', typeWork:'Abstract', desc:'description', size:'Large', price:'899$', image:'', forPurchase:"Request Remake"},
+        {title:'Boat', typeWork:'Other', desc:'boat desc', size:'Medium', price:'149$', image:'', forPurchase:"Request Remake"}
     ];
     
     return(
