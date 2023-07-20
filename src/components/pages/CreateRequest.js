@@ -65,7 +65,7 @@ function CreateRequest(){
                                 negotiate a price, and verify specifics.
                             </Form.Text>
                         </Form.Group>
-                        <Button variant="success" type="submit">
+                        <Button href="/Success" variant="success" type="submit">
                             Submit Order
                         </Button>
 

@@ -1,63 +1,63 @@
 const Data = [
     {
-      id: 1,
-      month: "January",
-      WorksSold:78
+        id: 1,
+        month: "January",
+        worksSold:78
     },
     {
-      id: 2,
-      year: "February",
-      worksSold: 70
+        id: 2,
+        month: "February",
+        worksSold: 70
       
     },
     {
-      id: 3,
-      year: "March",
-      worksSold: 84
+        id: 3,
+        month: "March",
+        worksSold: 84
     },
     {
         id: 4,
-        year: "April",
+        month: "April",
         worksSold: 87  
     },
     {
         id: 5,
-        year: "May",
+        month: "May",
         worksSold: 75
     },
     {
         id: 6,
-        year: "June",
+        month: "June",
         worksSold: 68
     },
     {
         id: 7,
-        year: "July",
+        month: "July",
         worksSold: 74
     },
     {
         id: 8,
-        year: "August",
+        month: "August",
         worksSold: 77
     },
     {
         id: 9,
-        year: "September",
+        month: "September",
         worksSold: 78
     },
     {
         id: 10,
-        year: "October",
+        month: "October",
         worksSold: 84
     },
     {
         id: 11,
-        year: "November",
+        month: "November",
         worksSold: 80
     },
     {
         id: 12,
-        year: "December",
+        month: "December",
         worksSold: 95
     },
 

@@ -5,8 +5,8 @@ function ImageCard({image, title, desc, price, size, typeWork, visible = true, f
 
   return (
     <div className='bottomPad'>
-    <Card style={{ width: '40%', display:{visible}}}>
-      <Card.Img variant="top" src={image}/>
+    <Card style={{ width: '35%', height:'30%' , display:{visible}}}>
+      <Card.Img width="30%" height="285px" variant="top" src={image}/>
       <Card.Body>
         <Card.Title>{title}</Card.Title>
         <Card.Text>
@@ -21,7 +21,7 @@ function ImageCard({image, title, desc, price, size, typeWork, visible = true, f
         <Card.Text>
           Price: {price}
         </Card.Text>
-        <Button variant="success">{forPurchase}</Button>
+        <Button href="/Success" variant="success">{forPurchase}</Button>
       </Card.Body>
     </Card>
     </div>

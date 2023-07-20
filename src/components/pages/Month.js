@@ -15,7 +15,7 @@ function Month(){
           {
             label: "Works Sold",
             data: Data.map((data) => data.worksSold),
-            backgroundColor: ["rgba(75,192,192,1)", "&quot;#ecf0f1", "#50AF95", "#f3ba2f", "#2a71d0"],
+            backgroundColor: ["#22B84F", "#7E4C00"],
             borderColor: "black",
             borderWidth: 2
           }
