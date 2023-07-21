@@ -29,7 +29,9 @@ function CreateRequest(){
                                 <Form.Control placeholder="Last Name" />
                             </Col>
                             <Col>
-                                <Form.Control placeholder="Email" />
+                                <Form.Group className="mb-3" controlId="formBasicEmail">
+                                    <Form.Control type="email" placeholder="Enter email" />
+                                </Form.Group>
                             </Col>
                         </Row>
 
