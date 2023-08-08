@@ -1,3 +1,5 @@
+Site can viewed here: https://seg3125-project2-step3.netlify.app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
